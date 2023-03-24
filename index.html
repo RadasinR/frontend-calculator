@@ -25,7 +25,7 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/calculator.js"></script>
     <script defer src="js/theme.js"></script>
   </head>
@@ -37,10 +37,19 @@
           <h1>calc</h1>
 
           <!-- theme select -->
-       <div class="theme">
-          <p><span>1</span> <span>2</span> <span>3</span></p>
-           <input type="range" name="them" id="themes"  min="1" max="3" value="1" oninput="changeTheme(this)">
-       </div>
+          <div class="theme">
+            <p><span>1</span> <span>2</span> <span>3</span></p>
+            <label class="label" for="themes">THEME</label>
+            <input
+              type="range"
+              name="them"
+              id="themes"
+              min="1"
+              max="3"
+              value="1"
+              oninput="changeTheme(this)"
+            />
+          </div>
         </header>
 
         <output id="screen" class="display"> </output>
@@ -62,8 +71,10 @@
           <button id="divide" class="numpad__key" onclick="send('/')">/</button>
           <button id="multi" class="numpad__key" onclick="send('*')">X</button>
           <button id="dot" class="numpad__key" onclick="send('.')">.</button>
-          <button id="reset" class="function__key" onclick="reset()">RESET</button>
-          <button id="result" class="result__key" onclick="calc()"> = </button>
+          <button id="reset" class="function__key" onclick="reset()">
+            RESET
+          </button>
+          <button id="result" class="result__key" onclick="calc()">=</button>
         </section>
       </section>
     </main>

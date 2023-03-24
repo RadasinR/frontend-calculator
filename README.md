@@ -172,7 +172,7 @@ Learn more about software design. Learn more about grammar.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Radasin)
+- Frontend Mentor - [@Radasin](https://www.frontendmentor.io/profile/Radasin)
 
 
 ## Acknowledgments

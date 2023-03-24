@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-I learn how to use grammar to parse a expression, how to change color themes, how to make tokens, how to design software.
+I learned how to use grammar to parse a expression, how to change color themes, how to make tokens, how to design software.
 
 
 
